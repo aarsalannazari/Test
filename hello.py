@@ -12,5 +12,5 @@ button=Button(window,text='test',bd=5,command=lambda:text.set('''hello world
 I am Amirarsalan
 I am 12 years old
 I am almost beginner and I love programming
-I live in Iran and I am originally Iranian''')
+I live in Iran and I am originally Iranian''')).pack()
 window.mainloop()
