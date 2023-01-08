@@ -6,7 +6,7 @@ window.configure(background='gray')
 window.resizable(width=False,height=False)
 
 text=StringVar()
-label=Label(window,text variable=text).pack(side=TOP)
+label=Label(window,textvariable=text).pack(side=TOP)
 
 button=Button(window,text='test',bd=5,command=lambda:text.set('''hello world
 I am Amirarsalan
