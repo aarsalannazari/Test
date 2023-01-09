@@ -4,7 +4,7 @@ def text_message_e():
 	text.set('''hello world
 I am Amirarsalan
 I am 12 years old
-I am almost beginner and I love programming \U0001F60A
+I am almost beginner and I love programming
 I live in Iran and I am originally Iranian''')
 	messagebox.showinfo('infotmation',text.get())
 def text_message_f():
