@@ -15,7 +15,8 @@ def text_message_f():
 من تو ایران زندگی میکنم و اصالتا هم ایرانی هستم''')
 	messagebox.showinfo('اطلاعات',text.get())
 window=Tk()
-window.geometry('150x100')
+window.title('introducing')
+window.geometry('300x300')
 window.configure(background='gray')
 window.resizable(width=False,height=False)
 
