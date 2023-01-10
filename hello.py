@@ -16,7 +16,7 @@ def text_message_f():
 	messagebox.showinfo('اطلاعات',text.get())
 window=Tk()
 window.title('introducing')
-window.geometry('400x400')
+window.geometry('300x300')
 window.configure(background='gray')
 window.resizable(width=False,height=False)
 
